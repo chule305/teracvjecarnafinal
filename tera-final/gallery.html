@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerija aranžmana – Tera cvjećarna | Markovo Polje</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- ============================================================
+     POZADINA STRANICE
+     Zamijenite 'images/pozadina.jpg' s putanjom vaše slike
+     ============================================================ -->
+
+<body
+  style="background-image: url('images/pozadina.jpg'); background-size: cover; background-attachment: fixed; background-position: center;">
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><em>TERA</em><small>cvjećarna · Markovo Polje</small></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="gallery.html" class="active">Galerija</a></li>
+        <li><a href="about.html">O nama</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="tel:+1234567890" class="nav-tel">+385 98 480 907
+
+
+
+          </a></li>
+      </ul>
+      <button class="nav-burger" id="nav-burger" aria-expanded="false" aria-label="Izbornik">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="pg-hero">
+    <!-- ============================================================
+       POZADINA HERO HEADERA
+       Zamijenite 'images/hero-galerija.jpg' s putanjom vaše slike
+       ============================================================ -->
+    <div class="pg-hero-bg" data-parallax="0.2" style="background-image: url('images/hero-galerija.jpg');"></div>
+    <div class="pg-hero-ov"></div>
+    <div class="pg-hero-inner">
+      <nav class="breadcrumb">
+        <a href="index.html">Početna</a>
+        <span class="sep">/</span>
+        <span>Galerija</span>
+      </nav>
+      <h1>Galerija aranžmana</h1>
+      <p class="t-silver">Naša ponuda</p>
+    </div>
+  </header>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="t-center reveal">
+        <span class="eyebrow">Svi prigodni aranžmani</span>
+        <p class="t-silver">Svaki aranžman može se prilagoditi vašim željama. Nazovite nas za individualni razgovor.</p>
+      </div>
+
+      <br>
+
+      <div class="filter-bar">
+        <button class="f-btn active" data-filter="all">Svi</button>
+        <button class="f-btn" data-filter="vijenci">Vijenci</button>
+        <button class="f-btn" data-filter="svjeze">Aranžmani od svježeg cvijeća</button>
+        <button class="f-btn" data-filter="umjetno">Aranžmani od umjetnog cvijeća</button>
+        <button class="f-btn" data-filter="kosarice">Košarice od umjetnog cvijeća</button>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- ========== VIJENCI ========== -->
+
+
+        <div class="g-item reveal d1" data-cat="vijenci">
+          <article class="p-card">
+            <!-- FOTO: Vijenac u obliku srca — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/vijenac-zeleni.jpeg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Pogrebni vijenci</span>
+              <h3 class="p-card-title">Prigodni vijenac</h3>
+              <p class="p-card-desc">Dirljiv spomen u — izraz duboke ljubavi i trajnog sjećanja.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/vijenci/vijenac-srca.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+
+
+        <div class="g-item reveal d2" data-cat="vijenci">
+          <article class="p-card">
+            <!-- FOTO: Veliki vijenac — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/veliki-biljeli.jpg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Pogrebni vijenac</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Pogrebni vijenci</span>
+              <h3 class="p-card-title">Veliki vijenac</h3>
+              <p class="p-card-desc">Klasičan vijenac s bijelim cvijećem, simbol mira i vječne ljubavi.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/vijenci/veliki-vijenac.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="g-item reveal d3" data-cat="vijenci">
+          <article class="p-card">
+            <!-- FOTO: Premium prigodni vijenac — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/premium-crveni.jpg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Premium</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Pogrebni vijenci</span>
+              <h3 class="p-card-title">Premium prigodni vijenac</h3>
+              <p class="p-card-desc">Elegantan vijenac s mješovitim sezonskim cvijećem za dostojanstvenu počast.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/vijenci/premium-vijenac.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+
+        <!-- Prazna ćelija — ostavite ako je potrebna za raspored -->
+        <div class="g-item reveal d1" data-cat="vijenci"></div>
+
+        <!-- ========== SVJEŽE CVIJEĆE ========== -->
+
+        <div class="g-item reveal d1" data-cat="svjeze">
+          <article class="p-card">
+            <!-- FOTO: Aranžman za grob — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/svjezi-bijeli.jpg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Posebni oblik</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Posebni oblici</span>
+              <h3 class="p-card-title">Aranžman za grob</h3>
+              <p class="p-card-desc">Niskoprofilni aranžman savršen za ukrašavanje grobnog mjesta.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/aranzmani-svjeze/aranzman-za-grob.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="g-item reveal d2" data-cat="svjeze">
+          <article class="p-card">
+            <!-- FOTO: Aranžman za lijes — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/lijes-bijeli.jpg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Premium</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Aranžmani za lijes</span>
+              <h3 class="p-card-title">Aranžman za lijes</h3>
+              <p class="p-card-desc">Puni spray aranžman koji pokriva cijeli lijes — vrhunski izraz poštovanja i
+                ljubavi.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/aranzmani-svjeze/spray-za-lijes.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Prazna ćelija -->
+        <div class="g-item reveal d3" data-cat="svjeze"></div>
+
+        <!-- ========== UMJETNO CVIJEĆE ========== -->
+
+        <div class="g-item reveal d2" data-cat="umjetno">
+          <article class="p-card">
+            <!-- FOTO: Uspravni prigodni aranžman — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/uspravni-crveni.jpeg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Trajni</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Aranžman za grob</span>
+              <h3 class="p-card-title">Uspravni prigodni aranžman</h3>
+              <p class="p-card-desc">Visoki aranžman od trajnog cvijeća — pažljivo izrađen za dugoročno ukrašavanje
+                groba ili prostora spomena.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/umjetno/stojni-trajni.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="g-item reveal d3" data-cat="umjetno">
+          <article class="p-card">
+            <!-- FOTO: Vodoravni prigodni aranžman — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/umjetni-vodoravni-bijeli.jpeg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Po narudžbi</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Aranžman za grob</span>
+              <h3 class="p-card-title">Vodoravni prigodni aranžman</h3>
+              <p class="p-card-desc">Dugačak aranžman od trajnog cvijeća — pažljivo izrađen za dugoročno ukrašavanje
+                groba ili prostora spomena.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/umjetno/vodoravni-trajni.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- ========== KOŠARICE ========== -->
+
+        <div class="g-item reveal d2" data-cat="kosarice">
+          <article class="p-card">
+            <!-- FOTO: Košara od svilenih ruža — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/košara-svileno.jpeg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Trajni</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Košarice od umjetnog cvijeća</span>
+              <h3 class="p-card-title">Košara od svilenih ruža</h3>
+              <p class="p-card-desc">Elegantna košara s pažljivo aranžiranim svilenim ružama — trajni i dostojanstven
+                znak sjećanja.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/kosarice/kosarice-svilene-ruže.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="g-item reveal d3" data-cat="kosarice">
+          <article class="p-card">
+            <!-- FOTO: Prigodna košara miješanog cvijeća — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/kosara-mjesano.jpeg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Trajni</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Košarice od umjetnog cvijeća</span>
+              <h3 class="p-card-title">Prigodna košara miješanog cvijeća</h3>
+              <p class="p-card-desc">Pažljivo složena košara s raznovrsnim trajnim cvijećem — dugotrajan i pažljiv izraz
+                sjećanja i ljubavi.</p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/kosarice/kosarice-mjesano.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="g-item reveal d1" data-cat="kosarice">
+          <article class="p-card">
+            <!-- FOTO: Mala prigodna košara — zamijenite putanju -->
+            <div class="p-card-img"
+              style="background-image: url('images/košara-mala.jpeg'); background-size: cover; background-position: center;">
+              <div class="p-card-img-ov"></div>
+              <span class="card-badge">Trajni</span>
+            </div>
+            <div class="p-card-body">
+              <span class="p-card-cat">Košarice od umjetnog cvijeća</span>
+              <h3 class="p-card-title">Mala Prigodna košara</h3>
+              <p class="p-card-desc">Nježna mala košara s trajnim cvijećem — diskretno, osobito i dugotrajno sjećanje.
+              </p>
+            </div>
+            <div class="p-card-foot">
+
+              <a href="products/kosarice/kosarice-mala.html" class="btn btn-ring btn-sm">Detalji</a>
+            </div>
+          </article>
+        </div>
+
+      </div><!-- /gallery-grid -->
+
+      <div class="t-center" style="margin-top:3rem;">
+        <div class="notice-box" style="max-width:600px; margin:0 auto;">
+          <p>Ne vidite ono što tražite? Svaki aranžman možemo izraditi prema vašim željama. Nazovite nas i razgovarat
+            ćemo o pojedinostima. <a href="tel:+385 98 480 907" class="t-gold">+385 98 480 907</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="para-sec">
+    <div class="cta-wrap">
+      <span class="eyebrow">Kontaktirajte nas</span>
+      <h2>Tu smo za vas u svakom trenutku</h2>
+      <p>Nazovite nas i dogovorit ćemo sve pojedinosti prema vašim željama.</p>
+      <a href="tel:+1234567890" class="cta-tel">+385 98 480 907</a>
+      <a href="contact.html" class="btn btn-ring">Pošaljite upit</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><em>TERA</em></div>
+        <p class="footer-tagline">Pogrebna cvjećarna u Markovu Polju. Svaki aranžman izrađujemo s poštovanjem, pažnjom i
+          ljubavlju.</p>
+        <p class="footer-tagline">Nazovite: <a href="tel:+1234567890" class="t-gold">+385 98 480 907</a></p>
+      </div>
+      <div>
+        <p class="footer-col-h">Navigacija</p>
+        <nav class="footer-nav">
+          <a href="index.html">Početna</a>
+          <a href="gallery.html">Galerija aranžmana</a>
+          <a href="about.html">O nama</a>
+          <a href="contact.html">Kontakt i lokacija</a>
+        </nav>
+      </div>
+      <div>
+        <p class="footer-col-h">Usluge</p>
+        <nav class="footer-nav">
+          <a href="gallery.html#vijenci">Vijenci</a>
+          <a href="gallery.html#svjeze">Aranžmani od svježeg cvijeća</a>
+          <a href="gallery.html#umjetno">Aranžmani od umjetnog cvijeća</a>
+          <a href="gallery.html#kosarice">Košarice od umjetnog cvijeća</a>
+          <a href="contact.html">Prilagođeni aranžmani</a>
+        </nav>
+      </div>
+      <div>
+        <p class="footer-col-h">Kontakt</p>
+        <div class="footer-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.18a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .5h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+          </svg>
+          <span>+385 98 480 907</span>
+        </div>
+        <div class="footer-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+          <span>cupiciva12@gmail.com</span>
+        </div>
+        <div class="footer-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Markovo Polje, Grad Zagreb</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Tera cvjećarna. Sva prava pridržana.</p>
+      <p>Markovo Polje, Grad Zagreb</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
